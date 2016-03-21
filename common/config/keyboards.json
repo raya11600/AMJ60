@@ -1,0 +1,64 @@
+[
+	{
+		"name": "GH60 RevA/B/C",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "gh60-reva_b_c.hex" },
+			{ "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-reva_b_c-no_console.hex" },
+			{ "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
+		]
+	},
+	{
+		"name": "GH60 RevCHN",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "gh60-revchn.hex" },
+			{ "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-revchn-no_console.hex" }
+		]
+	},
+	{
+		"name": "AmjPad",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "AmjPAD.hex" }
+
+		]
+	},
+	{
+		"name": "Amj60",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "Amj60.hex" }
+		]
+	},
+	{
+		"name": "Amj40",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "Amj40.hex" }
+		]
+	},
+	{
+		"name": "Amj40_v1.0.1",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "Amj40_v1.0.1.hex" }
+		]
+	},
+	{
+		"name": "Amj84",
+		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "Amj84.hex" }
+		]
+	},
+	{
+		"name": "AmjMini",
+		"bootloader": [ "lufa_dfu", "arduino" ],
+		"firmware": [
+			{ "name": "Default", "mcu": "atmega32u4", "file": "AmjMini.hex" }
+		]
+	}
+
+]
+
